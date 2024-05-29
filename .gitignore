@@ -1,0 +1,47 @@
+# Turborepo
+.turbo
+
+
+# Exclude idea project configuration files
+.idea
+.idea_bak
+*.iml
+*.ipr
+*.iws
+*.ids
+*.log
+
+# VS Code specific settings
+.vscode/settings.json
+
+.slcache
+.slcache_bak
+
+*.swp
+**/coverage/*
+
+
+node_modules
+out
+
+Brewfile
+
+# Local .terraform directories
+**/.terraform/*
+*/**/chart/charts/*
+
+.npmrc.publish
+
+.DS_Store
+
+tsconfig.tsbuildinfo
+
+__pycache__/
+*.tsbuildinfo
+dist
+.rollup.cache
+
+# Caching
+dump.rdb
+
+!.yalc/**/dist
